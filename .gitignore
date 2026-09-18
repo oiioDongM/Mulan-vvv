@@ -1,0 +1,14 @@
+# Keep large source media and local credentials outside normal Git history.
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.jpg
+*.jpeg
+*.png
+*.zip
+*.env
+.env*
+__pycache__/
+audit-output/
+local/
