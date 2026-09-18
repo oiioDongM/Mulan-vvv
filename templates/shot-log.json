@@ -1,0 +1,139 @@
+{
+  "project": "mulan-visual-lab",
+  "project_display_name": "Mulan vvv",
+  "github_repository_url": "https://github.com/oiioDongM/Mulan-vvv",
+  "github_visibility": "public",
+  "revision": "0.1",
+  "status": "planned_not_generated",
+  "target_seconds": 24,
+  "aspect_ratio": "9:16",
+  "music_file": null,
+  "music_in_seconds": null,
+  "bpm": null,
+  "lyrics": null,
+  "notes": "Timeline is provisional until music is supplied. Record actual UI settings and costs for each attempt.",
+  "shots": [
+    {
+      "id": "M01",
+      "edit_range": [
+        0,
+        2
+      ],
+      "subject": "红衣直视镜头",
+      "action": "抬眼与轻抬下颌",
+      "model": "Seedance 2.5 (planned)",
+      "generation_seconds": 5,
+      "reference_files": [],
+      "prompt_version": "M01-v01",
+      "status": "not_submitted",
+      "attempts": [],
+      "acceptance": "主脸稳定，红黑服装稳定，前推平顺，闭口，单人无字"
+    },
+    {
+      "id": "M02",
+      "edit_range": [
+        2,
+        5
+      ],
+      "subject": "读征书",
+      "status": "reuse_candidate",
+      "source_range_approx": [
+        9,
+        12
+      ],
+      "attempts": [],
+      "acceptance": "读信反应明确，优先无字原素材，竖屏构图完整"
+    },
+    {
+      "id": "M03",
+      "edit_range": [
+        5,
+        7
+      ],
+      "subject": "父亲与盔甲",
+      "status": "reuse_candidate",
+      "source_range_approx": [
+        19.5,
+        22
+      ],
+      "attempts": [],
+      "acceptance": "可识别父亲与盔甲，时间线清晰"
+    },
+    {
+      "id": "M04",
+      "edit_range": [
+        7,
+        10
+      ],
+      "subject": "系红发带",
+      "generation_seconds": 5,
+      "prompt_version": "M04-v01",
+      "status": "not_submitted",
+      "attempts": [],
+      "acceptance": "布带与双手接触正常，无穿模，动作有完成姿态"
+    },
+    {
+      "id": "M05",
+      "edit_range": [
+        10,
+        14
+      ],
+      "subject": "红衣迈出木门",
+      "generation_seconds": 5,
+      "prompt_version": "M05-v01",
+      "status": "not_submitted",
+      "attempts": [],
+      "acceptance": "一步落地有重量，剑在鞘中，服装连续"
+    },
+    {
+      "id": "M06",
+      "edit_range": [
+        14,
+        18
+      ],
+      "subject": "正面音乐表演",
+      "status": "awaiting_music_for_lipsync",
+      "attempts": [],
+      "acceptance": "无母版先闭口；口型以原曲短句复核"
+    },
+    {
+      "id": "M07",
+      "edit_range": [
+        18,
+        22
+      ],
+      "subject": "低机位英雄中景",
+      "generation_seconds": 5,
+      "status": "not_submitted",
+      "attempts": [],
+      "acceptance": "脸与服装一致，红旗不过度抢眼，动作简洁"
+    },
+    {
+      "id": "M08",
+      "edit_range": [
+        22,
+        24
+      ],
+      "subject": "近景与后期片名",
+      "status": "planned_reuse",
+      "attempts": [],
+      "acceptance": "正式歌名待用户提供，无黑尾，不截断人声"
+    }
+  ],
+  "attempt_record_fields": [
+    "timestamp",
+    "model_ui_name",
+    "duration_seconds",
+    "resolution",
+    "reference_files",
+    "prompt_text",
+    "credits_before",
+    "credits_after",
+    "task_id",
+    "download_file",
+    "usable_range",
+    "decision",
+    "failure_reason"
+  ],
+  "publication_authorized": true
+}
